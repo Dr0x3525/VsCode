@@ -1,0 +1,48 @@
+body {
+    background-color: #1e2229;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh;
+}
+
+.caja {
+    background-color: #767a98;
+    height: 90vh;
+    width: 60vh;
+    border-radius: 50px;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+}
+
+
+.ponerTareas {
+    display: flex; 
+    align-items: center;
+}
+
+#miInput {
+    font-size: 1.5rem;
+    width: 400vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 50px;
+
+}
+
+.miBoton {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+
+    font-size: 1.5rem;
+}
+
