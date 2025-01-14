@@ -11,23 +11,30 @@
 
 <div class="container">
   <div class="caja">
-      <h1 class="titulo">To do lista</h2>
+      <h1 class="titulo">To do lista de tareas</h1>
 
       <!--Aqui se ponen las tareas-->
 
       <div class="ponerTareas" >
-        <input placeholder="Ingrese un nuevo To do" type="text" id="miInput" name="miInput">
-        <button class="miBoton">
+        <input autocomplete="off" placeholder="Ingrese un nuevo To do" type="text" id="todo" name="todo">
+        <button class="miBoton" type="submit" onclick="AgregarTodo()">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2 21L23 12L2 2L2 9.5L17 12L2 14.5V21Z" fill="currentColor"/>
           </svg>
         </button>
       </div>
 
+      <script src="todo.js"></script>
+
       <!--Aqui se muestran las tareas-->
 
+      <hr>
       <br>
-      asd
+      
+      <div class="tarea">
+        a
+      </div>
+
 
   </div>
 </div>
